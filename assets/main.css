@@ -1,0 +1,170 @@
+.post-list{
+    margin: 2% 20% 5% 20%;
+}
+
+.post-synopsis h2{
+    text-align: center;
+    letter-spacing: 0.2em;
+    font-family: 'Lobster', sans-serif;
+}
+
+.post-synopsis p{
+    text-align: justify;
+    letter-spacing: 0.15em;
+    font-family: sans-serif;
+    font-size: 1.2em;
+}
+
+.meta{
+    color: white;
+    background-color: grey;
+    border-radius: 7px;
+    padding: 2px;
+    display: inline;
+    font-size: 0.95em;
+}
+
+h2 {
+    text-align: center;
+    letter-spacing: 0.2em;
+    font-family: 'Lobster', sans-serif;
+}
+
+h3, h4{
+    text-align: left;
+    letter-spacing: 0.2em;
+    font-family: 'Lobster', sans-serif;
+    margin: 2% 10% 2% 10%;
+}
+
+.user-form{
+    margin: 2% 30% 5% 30%;
+}
+
+.user-form label {
+    font-size: 1.05em;
+    margin-left: 10%;
+    width: 7em;
+    color: grey;
+    float: left;
+    text-align: right;
+
+    /* Some browsers make labels too tall, and as a result they incorrectly stack horizontally.
+        Let's reset each to the left-hand side to be sure. */
+    clear: left;
+}
+
+
+#login-button{
+    margin-left: 30%;
+}
+
+#list-posts{
+    text-align: justify;
+    letter-spacing: 0.15em;
+    font-family: sans-serif;
+    font-size: 1.2em;
+    margin-left: 5%;
+}
+
+#post-list {
+    border-collapse: collapse;
+    border: 1px solid silver;
+    margin-left: 5%;
+}
+
+#post-list td, #post-list th {
+    padding: 8px;
+    text-align: left;
+}
+
+#post-list tbody tr:nth-child(odd) {
+    background-color: #f4f4f4;
+}
+
+.new-post label{
+    font-size: 1.05em;
+    margin-left: 10%;
+    width: 7em;
+    color: grey;
+    float: left;
+    text-align: right;
+
+    /* Some browsers make labels too tall, and as a result they incorrectly stack horizontally.
+        Let's reset each to the left-hand side to be sure. */
+    clear: left;
+}
+
+.new-post input, textarea, button{
+    margin-bottom: 1%;
+    margin-left: 1%;
+}
+
+.new-post button{
+    margin-left: 50%;
+}
+
+.box {
+    border: 1px dotted silver;
+    border-radius: 5px;
+    padding: 4px;
+}
+.error {
+    background-color: #ff6666;
+}
+.success {
+    background-color: #88ff88;
+}
+.box ul {
+    margin: 4px;
+    padding-left: 14px;
+}
+
+.box ul li {
+    margin-bottom: 2px;
+}
+
+.install-password {
+    font-size: 1.2em;
+}
+
+.date {
+    color: white;
+    background-color: grey;
+    border-radius: 7px;
+    padding: 2px;
+    display: inline;
+    font-size: 0.95em;
+    margin-left: 10%;
+}
+
+.post p{
+    text-align: justify;
+    letter-spacing: 0.15em;
+    font-family: sans-serif;
+    font-size: 1.2em;
+    margin: 2% 20% 5% 20%;
+}
+
+.comment-form label{
+    font-size: 1.05em;
+    margin-left: 10%;
+    width: 7em;
+    color: grey;
+    float: left;
+    text-align: right;
+
+    /* Some browsers make labels too tall, and as a result they incorrectly stack horizontally.
+        Let's reset each to the left-hand side to be sure. */
+    clear: left;
+}
+
+.comment-form input, textarea, button{
+    margin-bottom: 1%;
+    margin-left: 1%;
+}
+
+.comment-form button{
+    margin-left: 50%;
+    margin-bottom: 2%;
+}
