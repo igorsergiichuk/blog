@@ -22,7 +22,7 @@ INSERT INTO
   )
 VALUES
   (
-    "admin", "blog_ihor_17", datetime('now'), 0
+    "", "", datetime('now'), 0
   );
 
 DROP TABLE IF EXISTS post;

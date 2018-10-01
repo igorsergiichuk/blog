@@ -22,7 +22,7 @@ INSERT INTO
   )
 VALUES
   (
-    "", "", datetime('now'), 0
+    "xxx", "xxx", datetime('now'), 0
   );
 
 DROP TABLE IF EXISTS post;
