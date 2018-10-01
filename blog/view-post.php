@@ -25,6 +25,7 @@ if (!$row)
 }
 
 $errors = null;
+
 if ($_POST)
 {
     switch ($_GET['action'])
