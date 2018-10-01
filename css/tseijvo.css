@@ -1,0 +1,88 @@
+@font-face {
+  font-family: 'CormorantUnicase-Medium';
+  src: url('../font/CormorantUnicase-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CormorantUnicase-Light';
+  src: url('../font/CormorantUnicase-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CormorantUnicase-Regular';
+  src: url('../font/CormorantUnicase-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CormorantUnicase-Bold';
+  src: url('../font/CormorantUnicase-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+body, html {
+  margin: 0;
+}
+
+body {
+  font-family: 'CormorantUnicase-Light', serif;
+}
+
+.hello-screen {
+  display: flex;
+  height: 100vh;
+}
+
+.title-links-block {
+  padding: 20vh 0;
+  width: 60vw;
+}
+
+.flying-screen {
+  width: 40vw;
+  height: 40vh;
+  padding-top: 20vh;
+}
+
+.flying-screen-image {
+  width: 200px;
+  height: 180px;
+}
+
+.title-link {
+  margin: 5vh 20%;
+  font-size: 4em;
+}
+
+.title-link > span {
+  color: #ff9999;
+  animation-name: title-link-anim;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+
+.title-link > a {
+  text-decoration: none;
+  color: black;
+  font-family: 'CormorantUnicase-Light', serif;
+}
+
+.title-link > a:hover {
+  text-decoration: none;
+  color: darkgoldenrod;
+}
+
+/* The animation code */
+@keyframes title-link-anim {
+  0% {color: #ff0000;}
+  50% {color: #008000;}
+  100% {color: #0000ff;}
+}
